@@ -11,3 +11,4 @@ Rakenduse funktsionaalsus:
 
 ![Hangman](hangman.png)
 
+Hangman source code - https://github.com/devression/hangman-game-js/tree/main
