@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Hangman</h1>
+        <div id="wordContainer"></div>
+        <div id="buttonsContainer"></div>
+        <div id="messageContainer">
+            <p id="message"></p>
+        </div>
+        <div id="triesContainer">
+            <p id="remainingTries">Tries left: <span id="triesCount"></span></p>
+        </div>
+        <div id="restartContainer">
+            <button id="restart-btn">Restart</button>
+        </div>
+        <canvas id="canvas" width="200" height="150"></canvas>
+        <p><a href="https://github.com/devression/hangman-game-js/tree/main" class="reference-link" target="_blank">Hangman sourcecode</a></p>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
